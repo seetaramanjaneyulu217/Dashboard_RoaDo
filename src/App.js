@@ -1,11 +1,12 @@
+import DashBoard from "./pages/DashBoard";
 
 
 function App() {
   return (
-    <div className="text-3xl text-blue-300">
-      Hello
+    <div>
+      <DashBoard />
     </div>
-  );
+  )
 }
 
 export default App;

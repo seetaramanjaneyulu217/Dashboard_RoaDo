@@ -12,7 +12,7 @@ const EndScreen = () => {
     const scheduledActivitiesData = ScheduledActivitiesData()
 
   return (
-    <div className='3/12 px-5 py-3 flex flex-col'>
+    <div className='w-full lg:w-[32%] px-5 py-3 flex flex-col'>
         {/* for 1st row */}
         <div className='flex flex-col font-roboto'>
             <p className='font-medium text-lg'>Todays Highlights (14)</p>

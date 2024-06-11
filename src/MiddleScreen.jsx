@@ -12,7 +12,7 @@ const MiddleScreen = () => {
     const highPriorityData = useSelector(state => state.highPriorityData.highPriorityData)
 
     return (
-        <div className='w-full lg:w-8/12 px-5 py-4 bg-[#F7FAFF]'>
+        <div className='w-full lg:w-9/12 px-5 py-4 bg-[#F7FAFF]'>
             {/* For heading and icons */}
             <div className='flex flex-col lg:flex-row lg:items-center justify-between'>
                 <h1 className='text-2xl font-montserrat font-medium'>Dashboard</h1>

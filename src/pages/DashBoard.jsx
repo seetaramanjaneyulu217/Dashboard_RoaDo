@@ -5,7 +5,7 @@ import EndScreen from '../EndScreen'
 
 const DashBoard = () => {
     return (
-        <div className='w-full flex flex-col md:flex-row'>
+        <div className='w-full flex flex-col lg:flex-row'>
             <SideBar />
             <MiddleScreen/>
             <EndScreen/>
